@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom right, rgb(101, 101, 231), #ffa5b4);
+    height: 100vh;
+}
+
+.Page {
+    background-color:  #ececec;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    width: 600px;
+    height: auto; /* Adjust height as needed */
+    border-radius: 20px;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    text-align: right;
+    margin: 0; /* Remove default margin */
+}
+
+label {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 5px;
+    width: calc(100% - 10px); /* Full width minus padding */
+    margin: 5px 0; /* Adjust margins */
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px; /* Ensure there's space above button */
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#totalAmount {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}

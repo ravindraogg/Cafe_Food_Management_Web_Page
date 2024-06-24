@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friday Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="Page">
+    <h1>Welcome To Friday Restaurant</h1>
+    <img src="logo.png" width="170px" height="170px">
+    <p> Pizza  : Rs40</p>
+    <p> Pasta  : Rs80</p>
+    <p> Burger : Rs80</p>
+    <p> Tea    : Rs50</p>
+    <p> Coffee : Rs70</p>  
+    <div>
+        <label for="item1">Enter the name of the first item you want to order:</label>
+        <input type="text" id="item1">
+    </div>
+    
+    <div>
+        <label for="anotherOrder">Do you want to add another item? (Yes/No):</label>
+        <input type="text" id="anotherOrder">
+    </div>
+    
+    <div>
+        <label for="item2">Enter the name of the second item:</label>
+        <input type="text" id="item2">
+    </div>
+    
+    <button onclick="placeOrder()">Place Order</button>
+
+    <p id="totalAmount">The total amount to pay is Rs0</p>
+</div>
+    <script src="link.js"></script>
+</body>
+</html>
